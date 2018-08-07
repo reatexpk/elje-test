@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import './fonts/fonts.css';
 import Header from './Header/index';
 import Navigation from './Navigation/index';
+import CoverImage from './CoverImage/index';
 
 const StyledApp = styled.div`
   box-sizing: border-box;
@@ -14,6 +15,7 @@ const App = () => (
   <StyledApp>
     <Header />
     <Navigation />
+    <CoverImage />
   </StyledApp>
 );
 
