@@ -12,12 +12,16 @@ const StyledApp = styled.div`
   font-family: Navigo;
 `;
 
+const Main = styled.main``;
+
 const App = () => (
   <StyledApp>
     <Header />
     <Navigation />
-    <CoverImage />
-    <About />
+    <Main>
+      <CoverImage />
+      <About />
+    </Main>
   </StyledApp>
 );
 

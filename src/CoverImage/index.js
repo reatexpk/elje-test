@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import coverImage from './coverImage.png';
 
-const StyledImage = styled.div`
+const StyledImage = styled.section`
   background: url('${coverImage}') no-repeat;
   background-size: cover;
   height: 380px;

@@ -6,7 +6,7 @@ import WorkingHours from './WorkingHours';
 import logo from './logotype_dark.svg';
 import Socials from './Socials';
 
-const HeaderWrapper = styled.div`
+const HeaderWrapper = styled.header`
   display: flex;
   justify-content: space-between;
   position: relative;
