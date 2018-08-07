@@ -7,11 +7,20 @@ const StyledAbout = styled.section`
 
 const StyledText = styled.p`
   max-width: 980px;
-  margin: 16px auto;
+  margin: 0 auto;
+  padding: 16px 0;
   color: #3d4252;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+`;
+
+const Divider = styled.div`
+  margin: 64px auto;
+  background-color: #3d4252;
+  opacity: 0.1;
+  width: 980px;
+  height: 1px;
 `;
 
 const About = () => (
@@ -29,6 +38,7 @@ const About = () => (
       рекламные возможности для продвижения нового товара или бренда, увеличения базы данных и
       повышения лояльности к бренду.
     </StyledText>
+    <Divider />
   </StyledAbout>
 );
 
