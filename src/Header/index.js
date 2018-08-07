@@ -25,14 +25,16 @@ const Logo = styled.img`
 `;
 
 const Header = () => (
-  <HeaderWrapper>
-    <Container>
-      <SwitchLang />
-      <WorkingHours />
-    </Container>
-    <Logo src={logo} />
-    <Socials />
-  </HeaderWrapper>
+  <div className="container">
+    <HeaderWrapper>
+      <Container>
+        <SwitchLang />
+        <WorkingHours />
+      </Container>
+      <Logo src={logo} />
+      <Socials />
+    </HeaderWrapper>
+  </div>
 );
 
 export default Header;
