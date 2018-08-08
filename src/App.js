@@ -7,6 +7,7 @@ import Navigation from './Navigation/index';
 import CoverImage from './CoverImage/index';
 import About from './About/index';
 import AdTypes from './AdTypes/index';
+import Footer from './Footer/index';
 
 const StyledApp = styled.div`
   box-sizing: border-box;
@@ -24,6 +25,7 @@ const App = () => (
       <About />
       <AdTypes />
     </Main>
+    <Footer />
   </StyledApp>
 );
 
