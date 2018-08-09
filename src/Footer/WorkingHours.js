@@ -34,14 +34,12 @@ const WorkingHours = () => (
       <Text>
         ПН - ЧТ + ВС
         <br />
-        {' '}
-10:00 - 22:00
+        10:00 - 22:00
       </Text>
       <Text>
         ПТ - СБ
         <br />
-        {' '}
-10:00 - 23:00
+        10:00 - 23:00
       </Text>
     </Container>
   </StyledWorkingHours>
