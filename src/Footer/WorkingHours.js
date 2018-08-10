@@ -1,21 +1,43 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import iconClockWhite from './icon_clock_white.svg';
+
 const StyledWorkingHours = styled.div`
   display: flex;
-  padding-right: 45px;
+  padding: 0 45px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+  @media (max-width: 1416px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 1199px) {
+    padding: 10px;
+    flex-direction: column;
+  }
 `;
 
 const Icon = styled.img`
   width: 36px;
   height: 36px;
   background-color: transparent;
-  margin: 41px 20px 41px 44px;
+  margin: 41px 20px 41px 0;
+
+  @media (max-width: 1416px) {
+    margin-right: 10px;
+  }
+  @media (max-width: 1199px) {
+    margin: 0 auto;
+  }
 `;
 
 const Container = styled.div`
   margin: 24px 0 14px 0;
+
+  @media (max-width: 1199px) {
+    margin: 5px 0 0 0;
+    text-align: center;
+  }
 `;
 
 const Text = styled.p`
@@ -29,7 +51,7 @@ const Text = styled.p`
 
 const WorkingHours = () => (
   <StyledWorkingHours>
-    <Icon />
+    <Icon src={iconClockWhite} />
     <Container>
       <Text>
         ПН - ЧТ + ВС

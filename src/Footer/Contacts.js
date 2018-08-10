@@ -3,17 +3,21 @@ import styled from 'styled-components';
 
 import iconPhone from './icon_phone.svg';
 
-const ContactsWrapper = styled.div``;
+const ContactsWrapper = styled.div`
+  padding: 2px 0 0 45px;
+
+  @media (max-width: 1416px) {
+    padding-left: 20px;
+  }
+`;
 
 const Container = styled.div`
   display: flex;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
 `;
 
 const Icon = styled.img`
-  margin: 3px 8px 0 48px;
+  margin: 0 8px 0 3px;
   background-color: #a8f0de;
   width: 16px;
   height: 16px;
@@ -31,7 +35,7 @@ const Text = styled.p`
 const Button = styled.button`
   width: 188px;
   height: 34px;
-  margin: 20px 0 0 45px;
+  margin-top: 20px;
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 19px;

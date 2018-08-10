@@ -5,10 +5,18 @@ import iconArrowRight from './icon_arrow-right.svg';
 
 const EmailWrapper = styled.div`
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0 45px;
+
+  @media (max-width: 1416px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 1199px) {
+    padding: 0 10px;
+  }
 `;
 
 const Title = styled.p`
-  margin: 32px 80px 4px 61px;
+  margin: 32px 0 4px 0;
   color: #ffffff;
   font-size: 12px;
   font-weight: 700;
@@ -20,18 +28,15 @@ const Title = styled.p`
 
 const InputContainer = styled.div`
   display: flex;
-  margin: 0 45px;
+  width: 200px;
   position: relative;
   border: 2px solid #656c81;
   border-radius: 19px;
-  width: 200px;
   height: 36px;
 `;
 const Input = styled.input`
-  width: 100%;
   padding-left: 16px;
   border: none;
-  line-height: 16px;
   background-color: transparent;
   color: #ffffff;
   &::placeholder {

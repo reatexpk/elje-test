@@ -6,13 +6,19 @@ import styled from 'styled-components';
 const AboutWrapper = styled.div`
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   padding-right: 44px;
+
+  @media (max-width: 1415px) {
+    padding-right: 10px;
+  }
+  @media (max-width: 1199px) {
+    padding-right: 0;
+  }
 `;
 
 const Logo = styled.h2`
   margin: 15px 0 16px 0;
   background-color: transparent;
   color: #fff;
-  width: 167px;
   height: 22px;
   text-transform: uppercase;
 `;

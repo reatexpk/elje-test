@@ -11,6 +11,10 @@ const StyledMenu = styled.ul`
   line-height: 22px;
   list-style-type: none;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+  @media (max-width: 1416px) {
+    padding: 7px 20px 1px 20px;
+  }
 `;
 
 const Item = styled.li``;
