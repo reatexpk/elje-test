@@ -14,6 +14,10 @@ const MenuItem = styled.li`
   line-height: 18px;
   text-transform: uppercase;
   cursor: pointer;
+
+  @media (max-width: 1199px) {
+    margin-right: 15px;
+  }
 `;
 
 const Menu = () => (
