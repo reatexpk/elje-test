@@ -55,6 +55,7 @@ const Button = styled.button`
   border-radius: 19px;
   width: 36px;
   height: 36px;
+  cursor: pointer;
 `;
 
 const ButtonImage = styled.img`

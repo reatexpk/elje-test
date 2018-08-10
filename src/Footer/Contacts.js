@@ -44,6 +44,7 @@ const Button = styled.button`
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 16px;
+  cursor: pointer;
 `;
 
 const Contacts = () => (
