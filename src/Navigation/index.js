@@ -17,12 +17,18 @@ const StyledNav = styled.div`
   padding: 13px 0;
 `;
 
+const Container = styled.div`
+  display: flex;
+`;
+
 const Navigation = () => (
   <NavWrapper>
     <div className="container">
       <StyledNav>
-        <SearchButton />
-        <MapButton />
+        <Container>
+          <SearchButton />
+          <MapButton />
+        </Container>
         <Menu />
         <AccountButton />
       </StyledNav>
