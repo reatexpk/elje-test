@@ -5,6 +5,7 @@ import SwitchLang from './SwitchLang';
 import WorkingHours from './WorkingHours';
 import logo from './logotype_dark.svg';
 import Socials from './Socials';
+import triangle from './triangle.svg';
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -24,6 +25,13 @@ const Logo = styled.img`
   transform: translate(-50%, -50%);
 `;
 
+const Arrow = styled.img`
+  position: absolute;
+  top: 107%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`;
+
 const Header = () => (
   <div className="container">
     <HeaderWrapper>
@@ -33,6 +41,7 @@ const Header = () => (
       </Container>
       <Logo src={logo} />
       <Socials />
+      <Arrow src={triangle} />
     </HeaderWrapper>
   </div>
 );
