@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 const AboutWrapper = styled.div`
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding-right: 44px;
 `;
 
 const Logo = styled.h2`
