@@ -31,7 +31,6 @@ const Link = styled.a`
   font-family: Navigo;
   font-size: 11px;
   font-weight: 700;
-  line-height: 13px;
 `;
 
 const WorkingHours = () => (

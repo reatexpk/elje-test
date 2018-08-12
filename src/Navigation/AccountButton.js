@@ -13,7 +13,6 @@ const StyledButton = styled.button`
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
-  line-height: 16px;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
@@ -30,7 +29,6 @@ const Counter = styled.span`
   font-size: 11px;
   font-weight: 700;
   line-height: 20px;
-  text-align: center;
 `;
 
 const AccountButton = () => (

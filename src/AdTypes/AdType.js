@@ -23,7 +23,6 @@ const Label = styled.h3`
   margin: 0 16px;
   color: #3d4252;
   font-size: 14px;
-  font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 20px;
   text-align: center;

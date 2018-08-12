@@ -32,11 +32,8 @@ const OrderButton = styled.button`
   border-radius: 28px;
   background: transparent;
   color: #3d4252;
-  font-size: 16px;
-  font-weight: 400;
   letter-spacing: 1.5px;
   line-height: 24px;
-  text-align: center;
   text-transform: uppercase;
   cursor: pointer;
 `;

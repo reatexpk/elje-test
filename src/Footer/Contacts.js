@@ -18,7 +18,6 @@ const Container = styled.div`
 
 const Icon = styled.img`
   margin: 0 8px 0 3px;
-  background-color: #a8f0de;
   width: 16px;
   height: 16px;
 `;
@@ -27,9 +26,7 @@ const Text = styled.p`
   margin: 0;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 400;
   line-height: 26px;
-  text-align: center;
 `;
 
 const Button = styled.button`

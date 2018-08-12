@@ -20,7 +20,6 @@ const StyledWorkingHours = styled.div`
 const Icon = styled.img`
   width: 36px;
   height: 36px;
-  background-color: transparent;
   margin: 41px 20px 41px 0;
 
   @media (max-width: 1416px) {
