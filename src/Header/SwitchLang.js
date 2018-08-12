@@ -7,7 +7,6 @@ const Button = styled.button`
   width: 36px;
   height: 36px;
   padding: 0;
-  text-align: center;
   background-color: ${({ active }) => (active ? '#3D4252' : 'transparent')};
   color: ${({ active }) => (active ? '#FFFFFF' : '#3D4252')};
   font-size: 11px;

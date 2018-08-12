@@ -11,7 +11,6 @@ const StyledText = styled.p`
   padding: 16px 0;
   color: #3d4252;
   font-size: 18px;
-  font-weight: 400;
   line-height: 28px;
 `;
 
@@ -19,7 +18,7 @@ const Divider = styled.div`
   margin: 64px auto;
   background-color: #3d4252;
   opacity: 0.1;
-  width: 980px;
+  max-width: 980px;
   height: 1px;
 `;
 

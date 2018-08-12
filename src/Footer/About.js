@@ -17,7 +17,6 @@ const AboutWrapper = styled.div`
 
 const Logo = styled.h2`
   margin: 15px 0 16px 0;
-  background-color: transparent;
   color: #fff;
   height: 22px;
   text-transform: uppercase;
@@ -37,7 +36,6 @@ const Rules = styled.a`
   color: #a8f0de;
   font-size: 13px;
   font-weight: 700;
-  line-height: 16px;
   text-decoration: none;
 `;
 
